@@ -12,11 +12,36 @@ Colour Palette:
 
 .sb-container {
     border: 1px solid #000000;
-    position: relative;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    width: 50%;
 }
 
 .sb-content {
-    position: absolute;
+    position: relative;
+    border: 1px solid #000000;
+}
+
+.sb-form {
+    position: relative;
+    border: 1px solid #000000;
+    width: 100%;
+}
+
+.sb-form > div {
+    display: inline-block;
+}
+
+#email-entry {
+    width: 80%;
+    background-color: #E6D3DA;
+}
+
+#email-entry > p {
+    background-color: #FFFFFF;
+    height: 20px;
+    margin: 10px;
 }
 
 .sb-content > p {
