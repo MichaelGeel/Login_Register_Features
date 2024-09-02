@@ -9,12 +9,83 @@ Colour Palette:
 #A29599 - Grey
 
 */
+html {
+    background-color: #A29599;
+}
 
 .sb-container {
-    border: 1px solid #000000;
     position: absolute;
-    top: 40%;
+    top: 45%;
     left: 25%;
-    width: 50%;
+    width: 700px;
+    height: 250px;
+}
+
+.sb-header {
+    position: relative;
+    padding: 30px;
+    background-color: #675F62;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.sb-header > h2 {
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    margin: 0;
+    font-size: 2rem;
+}
+
+.sb-content {
+ background-color: #C4B4BA;
+}
+
+.sb-content > p {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 20px;
+}
+
+.sb-form {
+    position: absolute;
+    bottom: 0px;
+    background-color: #C4B4BA;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.sb-form > div {
+    display: inline-block;
+}
+
+#email-entry {
+    background-color: #FFFFFF;
+    margin: 20px;
+    border-radius: 20px;
+    width: 60%;
+}
+
+#email-entry > p {
+    margin: 5px;
+    font-size: 1.5rem;
+    width: max-content;
+    padding-left: 10px;
+}
+
+#sb-btn {
+    width: 20%;
+    background-color: #000000;
+    position: relative;
+    left: 40px;
+    border-radius: 20px;
+}
+
+#sb-btn > p {
+    margin: 5px 0;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #FFFFFF;
 }
 

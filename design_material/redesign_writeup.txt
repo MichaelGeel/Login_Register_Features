@@ -1,0 +1,4 @@
+So the purpose of this project is to get an understanding of how positioning and the basic display 
+properties available in CSS.
+As all three windows in use here are in a popup style, they won't be responsive as such and the focus here 
+is more on getting a feel for using the particular concepts here.
