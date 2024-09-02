@@ -18,37 +18,3 @@ Colour Palette:
     width: 50%;
 }
 
-.sb-content {
-    position: relative;
-    border: 1px solid #000000;
-}
-
-.sb-form {
-    position: relative;
-    border: 1px solid #000000;
-    width: 100%;
-    padding: 10px;
-}
-
-.sb-form > div {
-    display: inline-block;
-}
-
-#email-entry {
-    width: 70%;
-    background-color: #E6D3DA;
-}
-
-#sb-btn {
-    background-color: #C4B4BA;
-    width: 20%;
-}
-
-#email-entry > p {
-    height: 20px;
-    margin: 0;
-}
-
-.sb-content > p {
-    margin: 0;
-}
