@@ -75,10 +75,9 @@ html {
 }
 
 #sb-btn {
-    width: 20%;
+    width: 25%;
     background-color: #000000;
     position: relative;
-    left: 20px;
     border-radius: 20px;
 }
 
