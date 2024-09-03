@@ -88,3 +88,69 @@ html {
     color: #FFFFFF;
 }
 
+.lg-container {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    background-color: #E6D3DA;
+    border-radius: 20px;
+}
+
+.lg-header {
+    background-color: #675F62;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.lg-header > h2 {
+    font-size: 2rem;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+#email-lg {
+    background-color: #C4B4BA;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    margin: 15px 0;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+#email-lg > p {
+    margin: 0 10px;
+}
+
+#pw-entry {
+    background-color: #C4B4BA;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    margin-bottom: 15px;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+#pw-entry > p {
+    margin: 0 10px;
+}
+
+#lg-btn {
+    background-color: #675F62;
+    width: 30%;
+    position: relative;
+    left: 35%;
+    margin-bottom: 15px;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+#lg-btn > p {
+    margin: 0 10px;
+    text-align: center;
+    color: #FFFFFF;
+}
