@@ -165,7 +165,7 @@ html {
 
 .rg-header {
     background-color: #675F62;
-    padding: 20px;
+    padding: 20px 40px;;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -176,7 +176,29 @@ html {
     color: #FFFFFF;
 }
 
+.reg-entry-container {
+    margin-top: 30px;
+    position: relative;
+}
 
+.reg-entry-container > div {
+    background-color: #E6D3DA;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: -10px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.reg-entry-container > div > p {
+    margin: 10px;
+}
+
+.reg-entry-container > p {
+    display: inline;
+    margin: 10px;
+}
 
 #rg-btn {
     background-color: #675F62;
@@ -185,6 +207,7 @@ html {
     border-radius: 5px;
     left: 35%;
     margin-bottom: 15px;
+    margin-top: 25px;
     padding: 10px 0;
 }
 
