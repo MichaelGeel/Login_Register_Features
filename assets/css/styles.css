@@ -156,5 +156,40 @@ html {
 }
 
 .rg-container {
-    border: 1px solid #000000;
+    border-radius: 20px;
+    background-color: #C4B4BA;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+.rg-header {
+    background-color: #675F62;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.rg-header > h2 {
+    margin: 0;
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+
+
+
+#rg-btn {
+    background-color: #675F62;
+    position: relative;
+    width: 30%;
+    border-radius: 5px;
+    left: 35%;
+    margin-bottom: 15px;
+    padding: 10px 0;
+}
+
+#rg-btn > p {
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0px 10px;
 }
